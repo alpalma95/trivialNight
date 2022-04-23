@@ -98,6 +98,7 @@ h1 {
 h2 {
   text-decoration: underline;
   font-size: 1.3rem;
+  text-align: center;
 }
 .buttons > button {
   width: 30px;
