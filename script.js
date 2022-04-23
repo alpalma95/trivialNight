@@ -171,46 +171,7 @@ let blueP6 = 0;
 let pinkP6 = 0;
 let orangeP6 = 0;
 
-// scoreBrownP1.textContent = brownP1;
-// scoreGreenP1.textContent = greenP1;
-// scoreBlueP1.textContent = blueP1;
-// scorePinkP1.textContent = pinkP1;
-// scoreOrangeP1.textContent = orangeP1;
-
-// scoreYellowP2.textContent = yellowP2;
-// scoreBrownP2.textContent = brownP2;
-// scoreGreenP2.textContent = greenP2;
-// scoreBlueP2.textContent = blueP2;
-// scorePinkP2.textContent = pinkP2;
-// scoreOrangeP2.textContent = orangeP2;
-
-// scoreYellowP3.textContent = yellowP3;
-// scoreBrownP3.textContent = brownP3;
-// scoreGreenP3.textContent = greenP3;
-// scoreBlueP3.textContent = blueP3;
-// scorePinkP3.textContent = pinkP3;
-// scoreOrangeP3.textContent = orangeP3;
-
-// scoreYellowP4.textContent = yellowP4;
-// scoreBrownP4.textContent = brownP4;
-// scoreGreenP4.textContent = greenP4;
-// scoreBlueP4.textContent = blueP4;
-// scorePinkP4.textContent = pinkP4;
-// scoreOrangeP4.textContent = orangeP4;
-
-// scoreYellowP5.textContent = yellowP5;
-// scoreBrownP5.textContent = brownP5;
-// scoreGreenP5.textContent = greenP5;
-// scoreBlueP5.textContent = blueP5;
-// scorePinkP5.textContent = pinkP5;
-// scoreOrangeP5.textContent = orangeP5;
-
-// scoreYellowP6.textContent = yellowP6;
-// scoreBrownP6.textContent = brownP6;
-// scoreGreenP6.textContent = greenP6;
-// scoreBlueP6.textContent = blueP6;
-// scorePinkP6.textContent = pinkP6;
-// scoreOrangeP6.textContent = orangeP6;
+//PLAYER 1
 
 addYellowP1.addEventListener("click", function () {
   yellowP1++;
