@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  background-color: rgb(214, 206, 206);
+}
+
+h1 {
+  text-align: center;
+}
+
+.container--dice {
+  text-align: center;
+}
+#dice {
+  width: 100px;
+  height: 100px;
+  border: 2.5px solid rgb(31, 30, 30);
+  border-radius: 10px;
+  margin: 2rem auto;
+  font-size: 4rem;
+}
+.roll {
+  padding: 0.5rem 1rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border: 2.5 solid rgb(31, 30, 30);
+  border-radius: 10px;
+}
+.yellow {
+  background-color: #dfc53e;
+  transition: 1s;
+}
+.pink {
+  background-color: #d064ab;
+  transition: 1s;
+}
+.orange {
+  background-color: #d8642d;
+  transition: 1s;
+}
+.green {
+  background-color: #197357;
+  transition: 1s;
+}
+.blue {
+  background-color: #309ad4;
+  transition: 1s;
+}
+.brown {
+  background-color: #77513c;
+  transition: 1s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(45deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate2 {
+  0% {
+    transform: rotate(45deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.animate {
+  animation-name: rotate;
+  animation-duration: 1s;
+}
+.animate2 {
+  animation-name: rotate2;
+  animation-duration: 1s;
+}
+
+.container--players {
+  width: 90%;
+  margin: 2rem auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  text-decoration: underline;
+  font-size: 1.3rem;
+}
+.buttons > button {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 2px dotted black;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  background-color: rgb(143, 66, 66);
+  color: rgb(214, 206, 206);
+}
+.score {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 0 0 #050505, -2px 0 0 #050505, 0 2px 0 #050505,
+    0 -2px 0 #050505, 1px 1px #050505, -1px -1px 0 #050505, 1px -1px 0 #050505,
+    -1px 1px 0 #050505;
+}
+.hidden {
+  display: none;
+}
