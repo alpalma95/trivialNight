@@ -88,28 +88,34 @@ h1 {
   display: grid;
   gap: 1rem;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
 }
 .buttons {
   display: flex;
+  flex-direction: column;
   gap: 1rem;
   justify-content: center;
   align-items: center;
 }
+.wedge-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
 h2 {
   text-decoration: underline;
   font-size: 1.3rem;
   text-align: center;
 }
-.buttons > button {
-  width: 30px;
-  height: 30px;
+.wedge-buttons > button {
+  width: 25px;
+  height: 25px;
   border-radius: 100%;
   border: 2px dotted black;
   font-size: 1.2rem;
   font-weight: 700;
   text-align: center;
-  background-color: rgb(143, 66, 66);
-  color: rgb(214, 206, 206);
+  color: white;
 }
 .score {
   font-size: 1.4rem;
